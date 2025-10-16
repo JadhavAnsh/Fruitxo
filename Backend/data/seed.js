@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
-const Fruit = require('./models/Fruit'); // Import the Fruit model
-const connectToMongo = require('./db'); // Import the database connection function
+const Fruit = require('../models/Fruit'); // Import the Fruit model
+const connectToMongo = require('../db'); // Import the database connection function
 
 const fruits = [
     {

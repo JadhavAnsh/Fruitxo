@@ -1,7 +1,7 @@
 // seeds/seedServices.js
 const mongoose = require('mongoose');
-const Service = require('./models/Service');  // Correct import path to Service model
-const connectToMongo = require('./db'); // Ensure you have the connection set up in db.js
+const Service = require('../models/Service');  // Correct import path to Service model
+const connectToMongo = require('../db'); // Ensure you have the connection set up in db.js
 
 const services = [
     {

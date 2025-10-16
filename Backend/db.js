@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-const mongoDBURL = "mongodb://127.0.0.1:27017/Fruitxo?directConnection=true&serverSelectionTimeoutMS=2000&appName=mongosh+2.3.7";
+const mongoDBURL = "mongodb+srv://jadhavansh10:kaCpqJp9VAsTgfV8@cluster0.jgvtmtz.mongodb.net/fruit-xo";
 
 const connectToMongo = async () => {
     try {
